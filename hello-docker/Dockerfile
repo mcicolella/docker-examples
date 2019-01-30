@@ -8,4 +8,4 @@ FROM openjdk:8-jre-alpine
 COPY --from=build /usr/src/hello-docker/target/hello-docker-0.0.1-SNAPSHOT.jar /usr/hello-docker/hello-docker-0.0.1-SNAPSHOT.jar  
 
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "/usr/hello-docker/hello-docker-0.0.1-SNAPSHOT.jar"
+ENTRYPOINT ["java", "-jar", "/usr/hello-docker/hello-docker-0.0.1-SNAPSHOT.jar"]
