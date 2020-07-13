@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Update system and install base packages
 sudo apt update
 sudo apt -y install apt-transport-https ca-certificates curl gnupg2 software-properties-common
@@ -19,5 +21,5 @@ sudo apt -y install docker-ce docker-ce-cli containerd.io
 sudo usermod -aG docker $USER
 newgrp docker
 
-# Check docker versione
+# Check docker version
 docker version
