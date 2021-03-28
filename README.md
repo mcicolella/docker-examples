@@ -8,6 +8,10 @@
 # Video
 
 * [Pillole di Docker: una panoramica dei principali comandi](https://youtu.be/wAyUdtQF05w)
+* [Pillole di Docker: un linter per Dockerfile](https://www.youtube.com/watch?v=Z174Q3om1es)
+* [Pillole di Docker: lavoriamo con i container](https://youtu.be/rtZ8u4aWzZ0)
+* [Pillole di Docker: RUN, CMD, ENTRYPOINT che confusione!](https://youtu.be/hdC5yoTBGAY)
+* [Pillole di Docker: attach vs exec](https://youtu.be/-fdIlBJN6-4)
 
 
 # Libri consigliati
