@@ -12,6 +12,7 @@
 * [Pillole di Docker: lavoriamo con i container](https://youtu.be/rtZ8u4aWzZ0)
 * [Pillole di Docker: RUN, CMD, ENTRYPOINT che confusione!](https://youtu.be/hdC5yoTBGAY)
 * [Pillole di Docker: attach vs exec](https://youtu.be/-fdIlBJN6-4)
+* [Pillole di Docker: volumi](https://youtu.be/RbtnBb6uhLo)
 
 
 # Libri consigliati
