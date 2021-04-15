@@ -13,6 +13,9 @@
 * [Pillole di Docker: RUN, CMD, ENTRYPOINT che confusione!](https://youtu.be/hdC5yoTBGAY)
 * [Pillole di Docker: attach vs exec](https://youtu.be/-fdIlBJN6-4)
 * [Pillole di Docker: volumi](https://youtu.be/RbtnBb6uhLo)
+* [Pillole di Docker: visualizzare le modifiche ai container](https://youtu.be/tT6vHhi451Q)
+* [Pillole di Docker: visualizzare e filtrare gli eventi](https://youtu.be/kZjGgaM5F_M)
+* [Pillole di Docker: le policy di restart dei container](https://youtu.be/vQd25yYI1Ck)
 
 
 # Libri consigliati
