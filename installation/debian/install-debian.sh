@@ -2,10 +2,10 @@
 
 # Update system and install base packages
 sudo apt update
-sudo apt -y install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+sudo apt -y install apt-transport-https ca-certificates curl gnupg lsb-release
 
 # Add Docker’s official GPG key
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
 # Add the Docker repository to Debian 10
 sudo add-apt-repository \
