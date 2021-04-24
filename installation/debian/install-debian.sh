@@ -21,7 +21,7 @@ sudo usermod -aG docker $USER
 newgrp docker
 
 # Check docker version
-docker version
+docker -v
 
 # Download docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
