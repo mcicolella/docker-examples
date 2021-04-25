@@ -5,7 +5,7 @@
 * [Spring Boot incontra Docker 2: multi-stage per immagini light](https://www.emmecilab.net/blog/spring-boot-incontra-docker-2-multi-stage-per-immagini-light/) - [:movie_camera:](https://youtu.be/unnPZUBO5K8)
 
 
-# Video
+## Video
 
 * [Pillole di Docker: una panoramica dei principali comandi](https://youtu.be/wAyUdtQF05w)
 * [Pillole di Docker: un linter per Dockerfile](https://www.youtube.com/watch?v=Z174Q3om1es)
@@ -18,6 +18,11 @@
 * [Pillole di Docker: le policy di restart dei container](https://youtu.be/vQd25yYI1Ck)
 
 
-# Libri consigliati
+## Libri consigliati
 
 * [Docker: Sviluppare e rilasciare software tramite container](https://amzn.to/37rOaYZ)
+
+
+## Get in touch
+
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/mcicolella)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/mauro-cicolella-0b107076//)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/EmmeCiLab-114063663344644)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/@emmecilab)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://www.emmecilab.net) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='website' height='40'>](https://www.youtube.com/c/emmecilab) 
