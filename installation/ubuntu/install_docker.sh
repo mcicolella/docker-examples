@@ -4,7 +4,7 @@
 sudo apt update
 
 # Install a few prerequisite packages which let apt use packages over HTTPS
-sudo apt-get install \
+sudo apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -23,7 +23,7 @@ echo \
 sudo apt update
 
 # Install Docker Community Edition
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io
  
 # Check if the Docker daemon is running
 sudo systemctl status docker
