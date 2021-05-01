@@ -4,22 +4,26 @@
 sudo apt update
 
 # Install a few prerequisite packages which let apt use packages over HTTPS
-sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
 
 # A the GPG key for the official Docker repository
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
- 
+ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+ 
 # Add the Docker repository to APT sources
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
- 
+echo \
+  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  
 # Update the package database with the Docker packages from the newly added repository
 sudo apt update
- 
-# Make sure you are about to install from the Docker repository instead of the default Ubuntu repository
-apt-cache policy docker-ce
 
 # Install Docker Community Edition
-sudo apt install -y docker-ce
+sudo apt-get install docker-ce docker-ce-cli containerd.io
  
 # Check if the Docker daemon is running
 sudo systemctl status docker
