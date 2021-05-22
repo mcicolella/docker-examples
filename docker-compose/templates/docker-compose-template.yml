@@ -1,0 +1,44 @@
+version: '3.8' 
+# Specify the compose format that this file conforms to.
+
+services: 
+# Specify the set of containers that your app is composed of.
+
+    servicename1:
+    # Same as 'docker container run'
+    # Used as the DNS name inside the network.
+
+        build: 
+        # Build an image from a Dockerfile
+
+        image: 
+        # Tag or partial image ID. Can be local or remote, Compose will attempt 
+        # to pull if it doesn't exist locally.
+        # Optional if you use 'build:' command
+
+        command:
+        # Override the default command.
+        # Optional to replace the default CMD specified by the image
+
+        environment: 
+        # Add environment variables. You can use either an array or a dictionary
+        # Environment variables with only a key are resolved to their values on 
+        # the machine Compose is running on. Same as '-e' in 'docker run'
+
+        volumes: 
+        # Same as using '-v' with 'docker container run'
+
+        ports: 
+        # Expose ports. Either specify both ports (HOST:CONTAINER)
+        # or just the container port (a random host port will be chosen).
+
+    servicename2:
+        build: 
+        image:
+        command: 
+        environment: 
+        volumes: 
+        ports: 
+        
+volumes: # Optional, same as 'docker volume create'
+networks: # Optional, same as 'docker network create'
