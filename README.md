@@ -7,6 +7,7 @@
 
 ## Videos (in Italian)
 
+* [Pillole di Docker: installare Docker e Docker Compose su Ubuntu con uno script](https://youtu.be/Xea_9GYFpaA)
 * [Pillole di Docker: una panoramica dei principali comandi](https://youtu.be/wAyUdtQF05w)
 * [Pillole di Docker: un linter per Dockerfile](https://www.youtube.com/watch?v=Z174Q3om1es)
 * [Pillole di Docker: lavoriamo con i container](https://youtu.be/rtZ8u4aWzZ0)
@@ -16,6 +17,7 @@
 * [Pillole di Docker: visualizzare le modifiche ai container](https://youtu.be/tT6vHhi451Q)
 * [Pillole di Docker: visualizzare e filtrare gli eventi](https://youtu.be/kZjGgaM5F_M)
 * [Pillole di Docker: le policy di restart dei container](https://youtu.be/vQd25yYI1Ck)
+* [Pillole di Docker: creare un'immagine da un container](https://youtu.be/k1A1CdD1yFc)
 
 
 ## Recommended books
