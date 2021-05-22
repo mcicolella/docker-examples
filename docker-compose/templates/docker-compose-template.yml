@@ -1,0 +1,22 @@
+version: 
+
+services:
+  service1:
+    build: 
+    image: 
+    command: 
+    environment: 
+    volumes: 
+    ports: 
+    
+  service2:
+    build:
+    image:
+    command: 
+    environment: 
+    volumes:
+    ports:
+    
+volumes:
+
+networks: 
