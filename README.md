@@ -18,6 +18,8 @@
 * [Pillole di Docker: visualizzare e filtrare gli eventi](https://youtu.be/kZjGgaM5F_M)
 * [Pillole di Docker: le policy di restart dei container](https://youtu.be/vQd25yYI1Ck)
 * [Pillole di Docker: creare un'immagine da un container](https://youtu.be/k1A1CdD1yFc)
+* [Pillole di Docker: networking e reti bridge](https://www.youtube.com/watch?v=lppLNI21T3w)
+
 
 
 ## Recommended books
