@@ -27,7 +27,9 @@
   
 * [Su Docker Hub con le GitHub Actions](https://youtu.be/AGldK5g30Xg)
 
-
+## Slides
+  
+* [Una panoramica di Docker in 30 minuti](https://www.slideshare.net/EmmeCi1/docker-la-rivoluzione-nel-deployment)
 
 ## Recommended books
 
