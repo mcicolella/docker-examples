@@ -1,0 +1,18 @@
+version: "3"
+services:
+    rabbitmq3:
+        container_name: rabbitmq
+        image: rabbitmq:3.8-management-alpine
+        environment:
+            - RABBITMQ_DEFAULT_USER=admin
+            - RABBITMQ_DEFAULT_PASS=rabbitpwd
+        ports:
+            # AMQP protocol port
+            - '5672:5672'
+            # HTTP management UI
+            - '15672:15672'
+        networks:
+            - rabbitmq
+networks:
+  rabbitmq:
+    driver: bridge
