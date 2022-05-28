@@ -24,8 +24,8 @@
 * [Pillole di Docker: le policy di restart dei container](https://youtu.be/vQd25yYI1Ck)
 * [Pillole di Docker: creare un'immagine da un container](https://youtu.be/k1A1CdD1yFc)
 * [Pillole di Docker: networking e reti bridge](https://www.youtube.com/watch?v=lppLNI21T3w)
-  
 * [Su Docker Hub con le GitHub Actions](https://youtu.be/AGldK5g30Xg)
+* [Docker in Pratica: RabbitMQ](https://youtu.be/lY9FVHt1o3k)  
 
 ## Slides
   
