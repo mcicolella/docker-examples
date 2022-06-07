@@ -1,0 +1,41 @@
+version: "3.8"
+
+services:
+  traefik:
+    container_name: traefik
+    image: "traefik:v2.6.0"
+    command:
+      - --entrypoints.websecure.address=:443
+      - --entrypoints.web.address=:80
+      - --providers.docker=true
+      - --api
+      # LET'S ENCRYPT CONFIG
+      #to be changed - email
+      - --certificatesresolvers.le.acme.email=info@emmecilab.net
+      - --certificatesresolvers.le.acme.storage=/acme/acme.json
+      - --certificatesresolvers.le.acme.tlschallenge=true
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - traefik-proxy
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "$PWD/acme:/acme"
+    labels:
+      # DASHBOARD
+      #to be changed - domain for dashboard
+      - "traefik.http.routers.traefik.rule=Host(`traefik-emmecilab.duckdns.org`)"
+      - "traefik.http.routers.traefik.service=api@internal"
+      - "traefik.http.routers.traefik.middlewares=admin"
+      - "traefik.http.routers.traefik.tls.certresolver=le"
+      - "traefik.http.middlewares.admin.basicauth.users=admin:$apr1$Dqo7TC2B$23bAWltXXzx01XUbq2BU50"
+      # GLOBAL REDIRECT TO HTTPS
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
+      - "traefik.http.routers.redirs.rule=hostregexp(`{host:.+}`)"
+      - "traefik.http.routers.redirs.entrypoints=web"
+      - "traefik.http.routers.redirs.middlewares=redirect-to-https"
+
+networks:
+  traefik:
+    name: traefik-proxy

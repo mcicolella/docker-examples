@@ -1,0 +1,62 @@
+version: "3"
+
+services:
+  blog:
+    image: wordpress:latest
+    container_name: wordpress
+    env_file: .env
+    environment:
+      - WORDPRESS_DB_HOST=db:3306
+      - WORDPRESS_DB_USER=$MYSQL_USER
+      - WORDPRESS_DB_PASSWORD=$MYSQL_PASSWORD
+      - WORDPRESS_DB_NAME=wordpress
+    labels:
+      - traefik.http.routers.blog.rule=Host(`blog-emmecilab.duckdns.org`)
+      - traefik.http.routers.blog.tls=true
+      - traefik.http.routers.blog.tls.certresolver=le
+      # - traefik.port=9000
+    networks:
+      - internal
+      - traefik-proxy
+    volumes:
+      - wordpress:/var/www/html
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    container_name: db
+    env_file: .env
+    environment:
+      - MYSQL_DATABASE=wordpress
+    volumes:
+      - data:/var/lib/mysql
+    command: '--default-authentication-plugin=mysql_native_password'
+    networks:
+      - internal
+    labels:
+      - traefik.enable=false
+
+  adminer:
+    image: adminer:4.6.3-standalone
+    container_name: adminer
+    labels:
+      - traefik.http.routers.adminer.rule=Host(`db-admin-emmecilab.duckdns.org`)
+      - traefik.http.routers.adminer.tls=true
+      - traefik.http.routers.adminer.tls.certresolver=le
+      # - traefik.port=8080
+    networks:
+      - internal
+      - traefik-proxy
+    depends_on:
+      - db
+
+networks:
+  traefik-proxy:
+    external: true
+  internal:
+    external: false
+    
+volumes:
+  wordpress:
+  data:
