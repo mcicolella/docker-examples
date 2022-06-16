@@ -8,7 +8,7 @@
 * [Come creare un server Docker su DigitalOcean in pochi minuti](https://www.emmecilab.net/blog/come-creare-un-server-docker-su-digitalocean-in-pochi-minuti/) -  [:movie_camera:](https://youtu.be/qhVVFJdH1yg)
 * [Spring Boot incontra Docker](https://www.emmecilab.net/blog/spring-boot-incontra-docker/) - [:movie_camera:](https://youtu.be/unnPZUBO5K8)
 * [Spring Boot incontra Docker 2: multi-stage per immagini light](https://www.emmecilab.net/blog/spring-boot-incontra-docker-2-multi-stage-per-immagini-light/) - [:movie_camera:](https://youtu.be/unnPZUBO5K8)
-
+* [Applicazioni sicure con Keycloack](https://www.emmecilab.net/blog/applicazioni-sicure-con-keycloack) - [:movie_camera:](https://youtu.be/2_nnPboQd5w)
 
 ## Videos (in Italian)
 
