@@ -11,6 +11,8 @@
 * [Applicazioni sicure con Keycloack](https://www.emmecilab.net/blog/applicazioni-sicure-con-keycloack) - [:movie_camera:](https://youtu.be/2_nnPboQd5w)
 
 ## Videos (in Italian)
+  
+### Pillole di Docker
 
 * [Pillole di Docker: installare Docker e Docker Compose su Ubuntu con uno script](https://youtu.be/Xea_9GYFpaA)
 * [Pillole di Docker: una panoramica dei principali comandi](https://youtu.be/wAyUdtQF05w)
@@ -24,6 +26,9 @@
 * [Pillole di Docker: le policy di restart dei container](https://youtu.be/vQd25yYI1Ck)
 * [Pillole di Docker: creare un'immagine da un container](https://youtu.be/k1A1CdD1yFc)
 * [Pillole di Docker: networking e reti bridge](https://www.youtube.com/watch?v=lppLNI21T3w)
+  
+### Docker in Pratica
+  
 * [Su Docker Hub con le GitHub Actions](https://youtu.be/AGldK5g30Xg)
 * [Docker in Pratica: RabbitMQ](https://youtu.be/lY9FVHt1o3k)  
 
