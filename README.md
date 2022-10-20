@@ -30,8 +30,14 @@
   
 ### Docker in Pratica
   
+* [Docker in Pratica: backup e restore di SQLite](https://www.youtube.com/watch?v=36oalEw8zys)
+* [Docker in Pratica: gestire uno stack con Portainer](https://www.youtube.com/watch?v=djVP9dFEBFo)
 * [Su Docker Hub con le GitHub Actions](https://youtu.be/AGldK5g30Xg)
+* [Docker in Pratica: il pc parla in italiano con OpenTTS](https://www.youtube.com/watch?v=UFP_hQggqak)
+* [Docker in pratica: testare immagini ARM su un PC](https://www.youtube.com/watch?v=ALdWsl1Ye8w)
 * [Docker in Pratica: RabbitMQ](https://youtu.be/lY9FVHt1o3k)  
+* [Docker in pratica: Reverse proxy con Traefik e HTTPS by Let's Encrypt](https://www.youtube.com/watch?v=UzlM4uhyDNU)
+* [Applicazioni sicure con Keycloack e Docker](https://www.youtube.com/watch?v=2_nnPboQd5w)
 
 ## Slides
   
