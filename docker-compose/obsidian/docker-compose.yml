@@ -1,0 +1,26 @@
+services:
+  obsidian:
+    image: 'sytone/obsidian-remote:latest'
+    container_name: obsidian
+    restart: unless-stopped
+    hostname: obsidian
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: curl -f http://localhost:8080/ || exit 1
+    ports:
+      - 8088:8080
+      - 8445:8443
+    volumes:
+      - obsidian-vaults:/vaults
+      - obsidian-config:/config
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Europe/Rome
+      - DOCKER_MODS=linuxserver/mods:universal-git
+
+volumes:
+   obsidian-vaults:
+   obsidian-config:
+
