@@ -1,0 +1,22 @@
+version: '3.9'
+services:
+ grocy:
+    image: ghcr.io/linuxserver/grocy:latest
+    container_name: grocy
+    healthcheck:
+      test: timeout 10s bash -c ':> /dev/tcp/127.0.0.1/80' || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 90s
+    restart: on-failure:5
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - /volume1/docker/grocy:/config:rw 
+    environment:
+      TZ: Europe/Rome
+      PGID: 100
+      PUID: 1026
+    ports:
+      - 9111:80
