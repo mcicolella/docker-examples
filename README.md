@@ -31,12 +31,17 @@
   
 * [Docker in Pratica | Backup e restore di SQLite](https://www.youtube.com/watch?v=36oalEw8zys)
 * [Docker in Pratica | Gestire uno stack con Portainer](https://www.youtube.com/watch?v=djVP9dFEBFo)
-* [Su Docker Hub con le GitHub Actions](https://youtu.be/AGldK5g30Xg)
 * [Docker in Pratica | Il pc parla in italiano con OpenTTS](https://www.youtube.com/watch?v=UFP_hQggqak)
 * [Docker in Pratica | Testare immagini ARM su un PC](https://www.youtube.com/watch?v=ALdWsl1Ye8w)
 * [Docker in Pratica | RabbitMQ](https://youtu.be/lY9FVHt1o3k)  
-* [Docker in pratica | Reverse proxy con Traefik e HTTPS by Let's Encrypt](https://www.youtube.com/watch?v=UzlM4uhyDNU)
-* [Applicazioni sicure con Keycloack e Docker](https://www.youtube.com/watch?v=2_nnPboQd5w)
+* [Docker in Pratica | Reverse proxy con Traefik e HTTPS by Let's Encrypt](https://www.youtube.com/watch?v=UzlM4uhyDNU)
+* [Docker in Pratica | DBMS Postgres con client](https://youtu.be/dqFyo9bdrOk)
+* [Su Docker Hub con le GitHub Actions](https://youtu.be/AGldK5g30Xg)
+* [RabbitMQ in 1 minuto con DOCKER COMPOSE](https://youtu.be/lY9FVHt1o3k)
+* [SQL SERVER su LINUX con DOCKER](https://youtu.be/L8N1WZ_4vS4)
+* [SQL SERVER su LINUX con DOCKER COMPOSE](https://youtu.be/21JK5HLGNow)
+* [IL MIO HOMELAB #11 | Installiamo Docker su Proxmox](https://youtu.be/lO8m7vXJl-4)
+* [IL MIO HOMELAB #12 | Portainer per gestire Docker su Proxmox](https://youtu.be/1ywyHdlPiQ4)
 
 ## Slides
   
@@ -44,6 +49,6 @@
 
 ## Recommended books
 
-* [Docker: Sviluppare e rilasciare software tramite container](https://amzn.to/37rOaYZ) - ITA
+* [Docker: Sviluppare e rilasciare software tramite container]([https://amzn.to/37rOaYZ](https://amzn.to/4iz432B)) - [Review in Italian](https://youtu.be/wIroVl00Agg)
 
 
